@@ -12,7 +12,7 @@ The initial dataset suffered from a critical data integrity issue: the Age attri
 
 ## My Dashboard
 <img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/production%20dashboard%20ss2.png> Dashboard 1 </img>
-<img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/Production%20dashboard1%20ss.png> used slicer </img>
+<img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/Production%20dashboard1%20ss.png>Used Slicer</img>
 
 ## My Analytical Process
 Define Objective & Understand Data: The goal was to create a single source of truth for production performance. I started by thoroughly examining the dataset, where I immediately identified the inconsistent "Age" data for managers.
