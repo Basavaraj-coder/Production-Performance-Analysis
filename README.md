@@ -11,60 +11,60 @@ The initial dataset suffered from a critical data integrity issue: the Age attri
 - <a href = https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/Excel%2BReport%2B2%20cleaned%20production.xlsx> Cleaned Production Dataset </a>
 
 ## My Dashboard
-- <img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/production%20dashboard%20ss2.png> Dashboard 1 </img>
-- <img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/Production%20dashboard1%20ss.png> used slicer </img>
+<img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/production%20dashboard%20ss2.png> Dashboard 1 </img>
+<img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/Production%20dashboard1%20ss.png> used slicer </img>
 
 ## My Analytical Process
 Define Objective & Understand Data: The goal was to create a single source of truth for production performance. I started by thoroughly examining the dataset, where I immediately identified the inconsistent "Age" data for managers.
 
 Data Cleaning & Validation (The Critical First Step):
 
-I used =XLOOKUP() to create a correct mapping of each manager to a single, accurate age value by fetching the first occurrence of each manager's name.
+- I used =XLOOKUP() to create a correct mapping of each manager to a single, accurate age value by fetching the first occurrence of each manager's name.
 
-I then used Paste Special -> Values to hardcode these correct ages, replacing the flawed column and ensuring the base data was reliable for all subsequent analysis.
+- I then used Paste Special -> Values to hardcode these correct ages, replacing the flawed column and ensuring the base data was reliable for all subsequent analysis.
 
-Feature Engineering: I created new calculated columns:
+- Feature Engineering: I created new calculated columns:
 
-Age Groups using =IF() logic to categorize managers for demographic analysis.
+- Age Groups using =IF() logic to categorize managers for demographic analysis.
 
-Production Cost Per Unit (a crucial KPI) by dividing TotalCost by UnitsProduced.
+- Production Cost Per Unit (a crucial KPI) by dividing TotalCost by UnitsProduced.
 
-Exploratory Data Analysis (EDA) with PivotTables: I built multiple PivotTables to explore relationships between fields like Manager, ProductType, Date, and my new KPIs.
+- Exploratory Data Analysis (EDA) with PivotTables: I built multiple PivotTables to explore relationships between fields like Manager, ProductType, Date, and my new KPIs.
 
-Dashboard & Visualization: I synthesized the key findings from my EDA into an interactive dashboard using PivotCharts and Slicers, designed for clarity and user-driven exploration.
+- Dashboard & Visualization: I synthesized the key findings from my EDA into an interactive dashboard using PivotCharts and Slicers, designed for clarity and user-driven exploration.
 
 ## Value Delivered:
 
-Data Integrity: Resolved critical data inconsistencies, establishing a reliable dataset for accurate decision-making.
+- Data Integrity: Resolved critical data inconsistencies, establishing a reliable dataset for accurate decision-making.
 
-Operational Insight: Provided management with an at-a-glance view of production health, identifying cost inefficiencies and productivity trends.
+- Operational Insight: Provided management with an at-a-glance view of production health, identifying cost inefficiencies and productivity trends.
 
-Data-Driven Culture: Empowered stakeholders with a self-service tool to independently explore data and answer their own questions, reducing the reporting burden on analysts.
+- Data-Driven Culture: Empowered stakeholders with a self-service tool to independently explore data and answer their own questions, reducing the reporting burden on analysts.
 
 ## Technical Skills Demonstrated:
 
-Data Cleansing: XLOOKUP(), Data Validation, Paste Special Operations
+- Data Cleansing: XLOOKUP(), Data Validation, Paste Special Operations
 
-Data Transformation: Formula-based Column Creation (IF Logic, Arithmetic Operations)
+- Data Transformation: Formula-based Column Creation (IF Logic, Arithmetic Operations)
 
-Data Analysis & Visualization: PivotTables, PivotCharts (Column, Bar, Pie, Line Charts)
+- Data Analysis & Visualization: PivotTables, PivotCharts (Column, Bar, Pie, Line Charts)
 
-Dashboarding: Slicers, Interactive Reporting, Dashboard Layout & Design
+- Dashboarding: Slicers, Interactive Reporting, Dashboard Layout & Design
 
-Attention to Detail: Meticulous data quality assurance and error handling.
+- Attention to Detail: Meticulous data quality assurance and error handling.
 
 ## Questions
 Based on your dashboard, how would you answer these?
 
-Overall Performance: Which product type has the highest total production cost, and what does that signify?
+- Overall Performance: Which product type has the highest total production cost, and what does that signify?
 
-Efficiency Analysis: Which product type has the highest average cost per unit? Is this a problem, and why?
+- Efficiency Analysis: Which product type has the highest average cost per unit? Is this a problem, and why?
 
-Manager Performance: Which manager is handling the most production tasks? Does high volume always mean high cost?
+- Manager Performance: Which manager is handling the most production tasks? Does high volume always mean high cost?
 
-Trend Analysis: What is the overall trend in units produced? Was there a significant peak or dip in a particular month?
+- Trend Analysis: What is the overall trend in units produced? Was there a significant peak or dip in a particular month?
 
-Data Quality: Walk me through the steps you took to identify and fix the data integrity issue with the managers' ages. Why was this crucial?
+- Data Quality: Walk me through the steps you took to identify and fix the data integrity issue with the managers' ages. Why was this crucial?
 
 ## Project Insights Derived
 Highest Investment Area: Automobiles has the highest total production cost ($1.15M), indicating it is the most resource-intensive product line and a key area of focus for the business.
