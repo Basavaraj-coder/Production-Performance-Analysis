@@ -10,6 +10,9 @@ The initial dataset suffered from a critical data integrity issue: the Age attri
 ## Cleaned Transformed Dataset:-
 - <a href = https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/Excel%2BReport%2B2%20cleaned%20production.xlsx> Cleaned Production Dataset </a>
 
+## My Dashboard
+- <img src= https://github.com/Basavaraj-coder/Production-Performance-Analysis/blob/main/production%20dashboard%20ss2.png> Dashboard 1 </img>
+
 ## My Analytical Process
 Define Objective & Understand Data: The goal was to create a single source of truth for production performance. I started by thoroughly examining the dataset, where I immediately identified the inconsistent "Age" data for managers.
 
